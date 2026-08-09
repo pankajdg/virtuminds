@@ -18,7 +18,7 @@ export function TrustStrip() {
           {companies.map((company) => (
             <li
               key={company}
-              className="font-display text-lg font-semibold tracking-tight text-muted-foreground"
+              className="font-display text-lg font-semibold tracking-tight text-muted-foreground/80"
             >
               {company}
             </li>

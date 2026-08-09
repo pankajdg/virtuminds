@@ -1,5 +1,5 @@
-import { Link } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
+import { CALENDLY_URL } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -9,34 +9,33 @@ export function Hero() {
         alt=""
         width={1920}
         height={1088}
-        className="absolute inset-0 h-full w-full object-cover opacity-70"
+        className="absolute inset-0 h-full w-full object-cover opacity-60"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/80 to-navy-deep/30" />
+      <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/85 to-navy-deep/40" />
       <div className="section-shell relative flex min-h-[88vh] flex-col justify-center py-32 text-navy-foreground">
         <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl lg:text-6xl">
-          Cybersecurity and AI risk, translated into board-ready decisions.
+          Cybersecurity risk, translated into board-ready decisions.
         </h1>
-        <p className="mt-6 max-w-xl leading-relaxed text-navy-foreground/75">
+        <p className="mt-6 max-w-2xl leading-relaxed text-navy-foreground/75">
           I help boards and executive teams govern cyber risk with the same clarity and rigor they
-          apply to financial risk — 24+ years across Cisco, HP, Wachovia, GE, AOL and Intuit,
-          including 11+ years directly building and running enterprise infrastructure and security
-          programs.
+          apply to financial risk — 24+ years across Cisco and Intuit, including 11+ years directly
+          building and running enterprise infrastructure and security programs.
         </p>
         <div className="mt-9 flex flex-wrap gap-3">
           <a
-            href="https://calendly.com"
+            href={CALENDLY_URL}
             target="_blank"
             rel="noreferrer"
-            className="rounded-md bg-gold px-6 py-3 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
+            className="rounded-md bg-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
           >
-            Start a conversation
+            Book 1:1 Advisory
           </a>
-          <Link
-            to="/services"
-            className="rounded-md border border-navy-foreground/40 px-6 py-3 text-sm font-semibold text-navy-foreground transition-colors hover:bg-navy-foreground/10"
+          <a
+            href="#track-record"
+            className="rounded-md border border-navy-foreground/40 px-6 py-3.5 text-sm font-semibold text-navy-foreground transition-colors hover:bg-navy-foreground/10"
           >
-            View services
-          </Link>
+            See the Track Record
+          </a>
         </div>
       </div>
     </section>

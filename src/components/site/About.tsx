@@ -2,16 +2,16 @@ import portrait from "@/assets/portrait.jpg";
 
 const blocks = [
   {
-    title: "24+ years in enterprise technology",
-    body: "Across Cisco, Intuit, GE, HP, DirecTV, Wachovia, AOL and Constellation Energy — in the rooms where infrastructure, budget and risk decisions actually get made.",
+    title: "Built it before advising on it",
+    body: "I spent 11+ years directly building and running enterprise infrastructure and security programs at Cisco, then 7 years advising Intuit's leadership at the executive level.",
   },
   {
-    title: "11+ years building security programs",
-    body: "Not observing from the outside. Designing, funding and running the infrastructure and security programs that carried real production risk.",
+    title: "Technical risk, governed as business risk",
+    body: "Through Virtuminds, I help boards and executive teams translate technical risk into governed business decisions — before a crisis forces the conversation.",
   },
   {
-    title: "Translation, not jargon",
-    body: "Boards govern cyber and AI risk best when it is presented with the same clarity and rigor as financial risk. That translation is the work.",
+    title: "Track record at scale",
+    body: "24+ years across Cisco, Intuit, and Fortune 100 enterprises, including a $150M regulatory compliance program guided to zero missed deadlines.",
   },
 ];
 
@@ -23,7 +23,7 @@ export function About() {
           <div className="absolute -left-4 -top-4 hidden h-full w-full rounded-lg border border-gold/50 lg:block" />
           <img
             src={portrait}
-            alt="Portrait of the cyber risk advisor"
+            alt="Portrait of the Virtuminds founder and cyber risk advisor"
             width={1024}
             height={1280}
             loading="lazy"
