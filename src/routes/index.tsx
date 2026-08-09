@@ -11,20 +11,24 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Cyber & AI Risk Advisory for Boards" },
+      { title: "Virtuminds | Cybersecurity Advisory for Boards & Executives" },
       {
         name: "description",
         content:
-          "Board-level advisory translating cybersecurity and AI risk into clear, decision-ready guidance. 24+ years across Fortune 100 enterprises.",
+          "Virtuminds helps boards and executive teams govern cyber risk with the clarity and rigor they apply to financial risk — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
       },
-      { property: "og:title", content: "Cyber & AI Risk Advisory for Boards" },
+      { property: "og:title", content: "Virtuminds | Cybersecurity Advisory for Boards" },
       {
         property: "og:description",
         content:
-          "Governing cyber and AI risk with the clarity and rigor boards apply to financial risk.",
+          "Board-ready guidance on cyber risk, governance and compliance decisions.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
     ],
+    links: [{ rel: "canonical", href: "/" }],
   }),
+
   component: Index,
 });
 

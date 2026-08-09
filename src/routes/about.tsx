@@ -9,19 +9,23 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Cyber & AI Risk Advisor" },
+      { title: "About — Virtuminds Cybersecurity Advisory" },
       {
         name: "description",
         content:
-          "24+ years across Cisco, Intuit, GE, HP, DirecTV, Wachovia, AOL and Constellation Energy, including 11+ years running security programs.",
+          "11+ years building and running enterprise infrastructure and security programs at Cisco, then 7 years advising Intuit leadership at the executive level.",
       },
-      { property: "og:title", content: "About — Cyber & AI Risk Advisor" },
+      { property: "og:title", content: "About — Virtuminds" },
       {
         property: "og:description",
         content: "Operator experience across Fortune 100 enterprises, applied at the board level.",
       },
+      { property: "og:type", content: "profile" },
+      { property: "og:url", content: "/about" },
     ],
+    links: [{ rel: "canonical", href: "/about" }],
   }),
+
   component: AboutPage,
 });
 
