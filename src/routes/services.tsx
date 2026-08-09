@@ -7,19 +7,23 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Cyber & AI Risk Advisory" },
+      { title: "Services — Virtuminds Cybersecurity Advisory" },
       {
         name: "description",
         content:
-          "Board briefings, AI governance, security program assessment, CISO advisory, M&A cyber diligence and incident readiness.",
+          "Security assessment and roadmap, board advisory, fractional CISO/CIO, cloud and compliance, M&A due diligence, and AI risk governance.",
       },
-      { property: "og:title", content: "Services — Cyber & AI Risk Advisory" },
+      { property: "og:title", content: "Services — Virtuminds" },
       {
         property: "og:description",
-        content: "Engagements scoped tightly around the cyber risk decision at hand.",
+        content: "Advisory scoped tightly around the cyber risk decision at hand.",
       },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/services" },
     ],
+    links: [{ rel: "canonical", href: "/services" }],
   }),
+
   component: ServicesPage,
 });
 

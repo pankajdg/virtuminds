@@ -77,8 +77,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Cyber & AI Risk Advisory" },
-      { name: "description", content: "Board-level cyber and AI risk advisory." },
+      { title: "Virtuminds | Cybersecurity Advisory for Boards & Executives" },
+      { name: "description", content: "Board-level cybersecurity and AI risk advisory." },
+      { property: "og:site_name", content: "Virtuminds" },
+
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
