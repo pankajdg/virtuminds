@@ -1,4 +1,14 @@
-import { ClipboardCheck, Users, ShieldCheck, Cloud, Briefcase, Brain } from "lucide-react";
+import {
+  ClipboardCheck,
+  Users,
+  ShieldCheck,
+  Cloud,
+  Briefcase,
+  Brain,
+  EyeOff,
+  Globe,
+  Bot,
+} from "lucide-react";
 
 const services = [
   {
@@ -30,6 +40,24 @@ const services = [
     icon: Brain,
     title: "AI / ML Risk & Governance",
     description: "Practical frameworks for responsible and secure AI adoption.",
+  },
+  {
+    icon: EyeOff,
+    title: "Shadow AI & Data Leakage Audits",
+    description:
+      "Rapid assessment of enterprise AI usage, analyzing network and browser data flows to map where PII and IP are exposed to external LLMs — plus DLP guardrails for generative tools.",
+  },
+  {
+    icon: Globe,
+    title: "AI Supply Chain & Third-Party Risk",
+    description:
+      "Evaluate SaaS vendors and AI APIs for model provenance, training data rights, retention policy, hallucination risk, and enterprise data isolation guarantees.",
+  },
+  {
+    icon: Bot,
+    title: "Agentic AI & Operational Guardrails",
+    description:
+      "Design identity, least-privilege permissioning, and human-in-the-loop controls for autonomous agents, vector databases, and multi-agent workflows.",
   },
 ];
 
