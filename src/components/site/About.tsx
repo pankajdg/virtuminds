@@ -1,4 +1,4 @@
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/portrait.jpg.asset.json";
 
 const blocks = [
   {
@@ -22,7 +22,7 @@ export function About() {
         <div className="relative">
           <div className="absolute -left-4 -top-4 hidden h-full w-full rounded-lg border border-gold/50 lg:block" />
           <img
-            src={portrait}
+            src={portrait.url}
             alt="Portrait of the Virtuminds founder and cyber risk advisor"
             width={1024}
             height={1280}
