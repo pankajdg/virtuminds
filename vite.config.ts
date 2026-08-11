@@ -12,4 +12,17 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Netlify static preset: outside the Lovable sandbox this tells Nitro to
+  // prerender a static site and emit Netlify-compatible artifacts. Lovable's
+  // own build pipeline still forces the Cloudflare preset, so publishing here
+  // keeps working unchanged.
+  nitro: {
+    preset: "netlify-static",
+    output: {
+      dir: "dist",
+      publicDir: "dist/client",
+    },
+  },
 });
+
+
