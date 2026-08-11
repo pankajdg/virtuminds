@@ -16,6 +16,13 @@ export default defineConfig({
   // prerender a static site and emit Netlify-compatible artifacts. Lovable's
   // own build pipeline still forces the Cloudflare preset, so publishing here
   // keeps working unchanged.
-  nitro: { preset: "netlify-static" },
+  nitro: {
+    preset: "netlify-static",
+    output: {
+      dir: "dist",
+      publicDir: "dist/client",
+    },
+  },
 });
+
 
