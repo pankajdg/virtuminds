@@ -1,12 +1,12 @@
 import { BRAND, CONTACT_EMAIL, LINKEDIN_URL } from "@/lib/site";
-import logoWhite from "@/assets/virtuminds-logo-white.png.asset.json";
+import logoWhite from "@/assets/virtuminds-logo-white.png";
 
 export function Footer() {
   return (
     <footer className="bg-navy-deep py-12 text-navy-foreground">
       <div className="section-shell flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
         <div className="flex items-center gap-3">
-          <img src={logoWhite.url} alt={`${BRAND} logo`} className="h-12 w-auto" />
+          <img src={logoWhite} alt={`${BRAND} logo`} className="h-12 w-auto" />
           <div>
             <p className="font-display text-lg font-semibold">{BRAND}</p>
             <p className="mt-1 text-sm text-navy-foreground/60">
