@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { CALENDLY_URL, BRAND } from "@/lib/site";
-import logoNavy from "@/assets/virtuminds-logo-navy.png.asset.json";
+import logoNavy from "@/assets/virtuminds-logo-navy.png";
 
 const linkClass =
   "rounded-full px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:bg-secondary";
@@ -14,7 +14,7 @@ export function FloatingNav() {
           className="flex items-center gap-2 rounded-full py-1 pl-2 pr-3"
           aria-label={`${BRAND} home`}
         >
-          <img src={logoNavy.url} alt={`${BRAND} logo`} className="h-7 w-auto" />
+          <img src={logoNavy} alt={`${BRAND} logo`} className="h-7 w-auto" />
           <span className="hidden font-display text-sm font-semibold tracking-tight sm:inline">
             {BRAND}
           </span>
