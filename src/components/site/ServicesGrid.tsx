@@ -63,15 +63,15 @@ const services = [
 
 export function ServicesGrid() {
   return (
-    <section id="services" className="scroll-mt-24 bg-background py-24">
+    <section id="services" className="scroll-mt-24 bg-background py-16 lg:py-20">
       <div className="section-shell">
         <p className="eyebrow">Services</p>
         <h2 className="mt-3 text-3xl font-bold sm:text-4xl">How I help</h2>
-        <div className="mt-12 grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
-            <div key={service.title} className="bg-card p-8">
+            <div key={service.title} className="bg-card p-6 lg:p-8">
               <service.icon className="h-6 w-6 text-gold" aria-hidden="true" />
-              <h3 className="mt-4 text-lg font-semibold">{service.title}</h3>
+              <h3 className="mt-3 text-lg font-semibold lg:mt-4">{service.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 {service.description}
               </p>

@@ -17,10 +17,10 @@ const blocks = [
 
 export function About() {
   return (
-    <section id="about" className="bg-secondary/50 py-24">
-      <div className="section-shell grid items-center gap-14 lg:grid-cols-2">
+    <section id="about" className="bg-secondary/50 py-16 lg:py-20">
+      <div className="section-shell grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <div className="relative">
-          <div className="absolute -left-4 -top-4 hidden h-full w-full rounded-lg border border-gold/50 lg:block" />
+          <div className="absolute -left-3 -top-3 hidden h-full w-full rounded-lg border border-gold/50 lg:-left-4 lg:-top-4 lg:block" />
           <img
             src={portrait}
             alt="Portrait of the Virtuminds founder and cyber risk advisor"
@@ -35,7 +35,7 @@ export function About() {
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
             Operator experience, board-level perspective
           </h2>
-          <div className="mt-8 space-y-8">
+          <div className="mt-6 space-y-6 lg:mt-8 lg:space-y-8">
             {blocks.map((block) => (
               <div key={block.title} className="border-l-2 border-gold pl-5">
                 <h3 className="text-lg font-semibold">{block.title}</h3>
