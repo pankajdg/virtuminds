@@ -1,4 +1,6 @@
+import { Link } from "@tanstack/react-router";
 import { BRAND, CONTACT_EMAIL, LINKEDIN_URL } from "@/lib/site";
+
 import logoWhite from "@/assets/virtuminds-logo-white.png";
 
 export function Footer() {
