@@ -21,6 +21,10 @@ export function Footer() {
           <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="hover:text-gold">
             LinkedIn
           </a>
+          <Link to="/contact" className="hover:text-gold">
+            Contact
+          </Link>
+
           <p className="text-navy-foreground/50">
             © {new Date().getFullYear()} {BRAND}. All rights reserved.
           </p>
