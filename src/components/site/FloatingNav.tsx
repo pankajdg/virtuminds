@@ -28,6 +28,10 @@ export function FloatingNav() {
         <Link to="/about" className={linkClass} activeProps={{ className: "bg-secondary" }}>
           About
         </Link>
+        <Link to="/contact" className={linkClass} activeProps={{ className: "bg-secondary" }}>
+          Contact
+        </Link>
+
         <a
           href={CALENDLY_URL}
           target="_blank"
