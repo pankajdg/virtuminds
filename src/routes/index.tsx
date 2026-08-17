@@ -6,9 +6,7 @@ import { About } from "@/components/site/About";
 import { TrackRecord } from "@/components/site/TrackRecord";
 import { ServicesGrid } from "@/components/site/ServicesGrid";
 import { CtaBand } from "@/components/site/CtaBand";
-import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
-
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -44,9 +42,7 @@ function Index() {
       <TrackRecord />
       <ServicesGrid />
       <CtaBand />
-      <Contact />
       <Footer />
-
     </main>
   );
 }
