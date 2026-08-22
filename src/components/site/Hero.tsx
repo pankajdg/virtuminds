@@ -14,12 +14,13 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/85 to-navy-deep/40" />
       <div className="section-shell relative flex min-h-[88vh] flex-col justify-center py-32 text-navy-foreground">
         <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl lg:text-6xl">
-          Cybersecurity risk, translated into board-ready decisions.
+          AI Strategy and Cybersecurity risk, translated into board-ready decisions.
         </h1>
         <p className="mt-6 max-w-2xl leading-relaxed text-navy-foreground/75">
-          I help boards and executive teams govern cyber risk with the same clarity and rigor they
-          apply to financial risk — 24+ years across Cisco and Intuit, including 11+ years directly
-          building and running enterprise infrastructure and security programs.
+          24+ years in enterprise technology — 11 years building and running infrastructure and
+          security programs at Cisco, then 7 years advising Intuit's leadership at the executive
+          level. I help boards and executive teams make sound decisions on AI adoption and cyber
+          risk, before either becomes a crisis.
         </p>
         <div className="mt-9 flex flex-wrap gap-3">
           <a
