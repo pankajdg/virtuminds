@@ -1,5 +1,5 @@
 import hero from "@/assets/hero.jpg";
-import { CALENDLY_URL } from "@/lib/site";
+import { CALENDLY_URL, DISCOVERY_CALL_URL } from "@/lib/site";
 
 export function Hero() {
   return (
