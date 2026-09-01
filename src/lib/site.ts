@@ -1,4 +1,5 @@
 export const CALENDLY_URL = "https://calendly.com/pankajdgv/board-executive-advisory-session";
+export const DISCOVERY_CALL_URL = "https://calendly.com/pankajdgv/discovery-call";
 export const CONTACT_EMAIL = "hello@virtumindsadvisory.com";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/pankajdgup/";
 export const BRAND = "Virtuminds";
