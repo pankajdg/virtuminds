@@ -28,14 +28,24 @@ export function FloatingNav() {
         <Link to="/about" className={linkClass} activeProps={{ className: "bg-secondary" }}>
           About
         </Link>
-        <a
-          href={CALENDLY_URL}
-          target="_blank"
-          rel="noreferrer"
-          className="ml-1 rounded-full bg-gold px-4 py-2 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
-        >
-          Schedule a meeting
-        </a>
+        <DropdownMenu>
+          <DropdownMenuTrigger className="ml-1 flex items-center gap-1.5 rounded-full bg-gold px-4 py-2 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90 focus:outline-none">
+            Schedule a meeting
+            <ChevronDown className="h-4 w-4" />
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end" className="w-60">
+            <DropdownMenuItem asChild>
+              <a href={DISCOVERY_CALL_URL} target="_blank" rel="noreferrer" className="cursor-pointer">
+                Book a Discovery Call
+              </a>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <a href={CALENDLY_URL} target="_blank" rel="noreferrer" className="cursor-pointer">
+                Book 1:1 Advisory
+              </a>
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </nav>
     </header>
   );
