@@ -22,6 +22,9 @@ export function Hero() {
           level. I help boards and executive teams make sound decisions on AI adoption and cyber
           risk, before either becomes a crisis.
         </p>
+        <div className="mt-5 text-xs font-semibold uppercase tracking-[0.15em] text-gold">
+          AI Strategy & Governance · Cybersecurity & Risk Advisory
+        </div>
         <div className="mt-9 flex flex-wrap gap-3">
           <a
             href={CALENDLY_URL}
