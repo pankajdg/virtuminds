@@ -38,7 +38,7 @@ export function Hero() {
             href={CALENDLY_URL}
             target="_blank"
             rel="noreferrer"
-            className="rounded-md bg-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
+            className="rounded-md border border-gold px-6 py-3.5 text-sm font-semibold text-gold transition-colors hover:bg-gold/10"
           >
             Book 1:1 Advisory
           </a>
