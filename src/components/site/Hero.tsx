@@ -27,6 +27,14 @@ export function Hero() {
         </div>
         <div className="mt-9 flex flex-wrap gap-3">
           <a
+            href={DISCOVERY_CALL_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-md bg-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
+          >
+            Book a Discovery Call
+          </a>
+          <a
             href={CALENDLY_URL}
             target="_blank"
             rel="noreferrer"
