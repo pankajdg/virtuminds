@@ -1,5 +1,12 @@
 import { Link } from "@tanstack/react-router";
-import { CALENDLY_URL, BRAND } from "@/lib/site";
+import { ChevronDown } from "lucide-react";
+import { CALENDLY_URL, DISCOVERY_CALL_URL, BRAND } from "@/lib/site";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import logoNavy from "@/assets/virtuminds-logo-navy.png";
 
 const linkClass =
