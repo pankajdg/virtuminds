@@ -8,9 +8,18 @@ import {
   EyeOff,
   Globe,
   Bot,
+  Compass,
+  Database,
+  Lock,
 } from "lucide-react";
 
 const services = [
+  {
+    icon: Compass,
+    title: "AI Strategy & Use-Case Prioritization",
+    description:
+      "Rank AI opportunities by business value, feasibility, and risk, so investment follows impact instead of hype.",
+  },
   {
     icon: Bot,
     title: "Agentic AI & Operational Guardrails",
@@ -21,6 +30,18 @@ const services = [
     icon: Brain,
     title: "AI / ML Risk & Governance",
     description: "Practical frameworks for responsible and secure AI adoption.",
+  },
+  {
+    icon: Database,
+    title: "RAG & LLM Solutions",
+    description:
+      "Architecture and delivery of retrieval-augmented and LLM-based solutions, grounded in your enterprise data and aligned to your risk posture.",
+  },
+  {
+    icon: Lock,
+    title: "Secure AI Implementation",
+    description:
+      "Security-by-design delivery of AI systems — data protection, access controls, and monitoring from pilot through production.",
   },
   {
     icon: ClipboardCheck,

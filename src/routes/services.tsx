@@ -11,7 +11,7 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Security assessment and roadmap, board advisory, fractional CISO/CIO, cloud and compliance, M&A due diligence, and AI risk governance.",
+          "AI strategy and use-case prioritization, AI governance and risk, agentic AI, RAG/LLM solutions, secure AI implementation, board advisory, fractional CISO/CIO, and M&A due diligence.",
       },
       { property: "og:title", content: "Services — Virtuminds" },
       {
