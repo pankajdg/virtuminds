@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <p className="font-display text-lg font-semibold">{BRAND}</p>
             <p className="mt-1 text-sm text-navy-foreground/60">
-              Cybersecurity advisory for boards and executives.
+              AI governance advisory for boards and executives.
             </p>
           </div>
         </div>
