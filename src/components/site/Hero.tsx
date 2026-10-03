@@ -14,7 +14,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/85 to-navy-deep/40" />
       <div className="section-shell relative flex min-h-[88vh] flex-col justify-center py-32 text-navy-foreground">
         <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl lg:text-6xl">
-          AI Strategy and Cybersecurity risk, translated into board-ready decisions.
+          AI strategy and governance, translated into board-ready decisions.
         </h1>
         <p className="mt-6 max-w-2xl leading-relaxed text-navy-foreground/75">
           24+ years in enterprise technology — 11 years building and running infrastructure and
