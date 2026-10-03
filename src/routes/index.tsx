@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
         content:
           "Virtuminds helps boards and executive teams govern AI adoption with the clarity and rigor they apply to financial risk — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
       },
-      { property: "og:title", content: "Virtuminds | Cybersecurity Advisory for Boards" },
+      { property: "og:title", content: "Virtuminds | AI Governance Advisory for Boards" },
       {
         property: "og:description",
         content:
