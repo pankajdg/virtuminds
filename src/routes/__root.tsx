@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Virtuminds | Cybersecurity Advisory for Boards & Executives" },
+      { title: "Virtuminds | AI Governance Advisory for Boards & Executives" },
       { name: "description", content: "Board-level cybersecurity and AI risk advisory." },
       { property: "og:site_name", content: "Virtuminds" },
 
