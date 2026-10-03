@@ -11,7 +11,7 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "AI strategy and use-case prioritization, AI governance and risk, agentic AI, RAG/LLM solutions, secure AI implementation, board advisory, fractional CISO/CIO, and M&A due diligence.",
+          "AI Governance Readiness Briefing, Board and Executive Advisory, and AI Risk Due Diligence for M&A and private equity — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
       },
       { property: "og:title", content: "Services — Virtuminds" },
       {
