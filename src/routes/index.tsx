@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Virtuminds helps boards and executive teams govern cyber risk with the clarity and rigor they apply to financial risk — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
+          "Virtuminds helps boards and executive teams govern AI adoption with the clarity and rigor they apply to financial risk — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
       },
       { property: "og:title", content: "Virtuminds | Cybersecurity Advisory for Boards" },
       {
