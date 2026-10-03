@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Board-ready guidance on cyber risk, governance and compliance decisions.",
+          "Board-ready guidance on AI strategy, governance, and cyber risk.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
