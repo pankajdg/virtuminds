@@ -1,84 +1,23 @@
-import {
-  ClipboardCheck,
-  Users,
-  ShieldCheck,
-  Cloud,
-  Briefcase,
-  Brain,
-  EyeOff,
-  Globe,
-  Bot,
-  Compass,
-  Database,
-  Lock,
-} from "lucide-react";
+import { ClipboardCheck, Users, Briefcase } from "lucide-react";
 
 const services = [
   {
-    icon: Compass,
-    title: "AI Strategy & Use-Case Prioritization",
-    description:
-      "Rank AI opportunities by business value, feasibility, and risk, so investment follows impact instead of hype.",
-  },
-  {
-    icon: Bot,
-    title: "Agentic AI & Operational Guardrails",
-    description:
-      "Design identity, least-privilege permissioning, and human-in-the-loop controls for autonomous agents, vector databases, and multi-agent workflows.",
-  },
-  {
-    icon: Brain,
-    title: "AI / ML Risk & Governance",
-    description: "Practical frameworks for responsible and secure AI adoption.",
-  },
-  {
-    icon: Database,
-    title: "RAG & LLM Solutions",
-    description:
-      "Architecture and delivery of retrieval-augmented and LLM-based solutions, grounded in your enterprise data and aligned to your risk posture.",
-  },
-  {
-    icon: Lock,
-    title: "Secure AI Implementation",
-    description:
-      "Security-by-design delivery of AI systems — data protection, access controls, and monitoring from pilot through production.",
-  },
-  {
     icon: ClipboardCheck,
-    title: "Security Assessment & Roadmap",
-    description: "Clear view of current risk posture and a prioritized path forward.",
+    title: "AI Governance Readiness Briefing",
+    description:
+      "A focused 90-minute session for boards and executive teams working through AI adoption, oversight, or investment decisions. You leave with a clear picture of your AI exposure, the trade-offs, and a board-defensible path forward.",
   },
   {
     icon: Users,
     title: "Board & Executive Advisory",
-    description: "Translate cyber risk into language the board can act on.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Fractional CISO / CIO",
-    description: "Executive-level security leadership without the full-time overhead.",
-  },
-  {
-    icon: Cloud,
-    title: "Cloud, Data & Compliance",
-    description: "Practical programs that satisfy regulators and support the business.",
+    description:
+      "Ongoing counsel as the AI decisions get bigger — governance frameworks, board reporting, and a second set of eyes before commitments get made.",
   },
   {
     icon: Briefcase,
-    title: "M&A & PE Due Diligence",
-    description: "Cyber risk clarity for transactions and portfolio companies.",
-  },
-  {
-    icon: EyeOff,
-    title: "Shadow AI & Data Leakage Audits",
+    title: "AI Risk Due Diligence",
     description:
-      "Rapid assessment of enterprise AI usage, analyzing network and browser data flows to map where PII and IP are exposed to external LLMs — plus DLP guardrails for generative tools.",
-  },
-  {
-    icon: Globe,
-    title: "AI Supply Chain & Third-Party Risk",
-    description:
-      "Evaluate SaaS vendors and AI APIs for model provenance, training data rights, retention policy, hallucination risk, and enterprise data isolation guarantees.",
+      "For M&A, private equity, and portfolio companies: rapid assessment of AI exposure — shadow AI usage, third-party and model risk, data leakage — with findings a deal team can act on.",
   },
 ];
 
