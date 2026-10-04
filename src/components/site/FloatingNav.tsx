@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
-import { CALENDLY_URL, DISCOVERY_CALL_URL, BRAND } from "@/lib/site";
+import { CALENDLY_URL, INTRODUCTORY_CONVERSATION_URL, BRAND } from "@/lib/site";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -42,8 +42,8 @@ export function FloatingNav() {
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-60">
             <DropdownMenuItem asChild>
-              <a href={DISCOVERY_CALL_URL} target="_blank" rel="noreferrer" className="cursor-pointer">
-                Book a Discovery Call
+              <a href={INTRODUCTORY_CONVERSATION_URL} target="_blank" rel="noreferrer" className="cursor-pointer">
+                Introductory conversation
               </a>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
