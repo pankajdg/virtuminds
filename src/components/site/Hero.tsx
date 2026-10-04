@@ -1,5 +1,5 @@
 import hero from "@/assets/hero.jpg";
-import { CALENDLY_URL, DISCOVERY_CALL_URL } from "@/lib/site";
+import { CALENDLY_URL, INTRODUCTORY_CONVERSATION_URL } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -27,12 +27,12 @@ export function Hero() {
         </div>
         <div className="mt-9 flex flex-wrap gap-3">
           <a
-            href={DISCOVERY_CALL_URL}
+            href={INTRODUCTORY_CONVERSATION_URL}
             target="_blank"
             rel="noreferrer"
             className="rounded-md bg-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
           >
-            Book a Discovery Call
+            Introductory conversation
           </a>
           <a
             href={CALENDLY_URL}
