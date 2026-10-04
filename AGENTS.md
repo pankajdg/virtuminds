@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Architecture rules
+
+- Shared appointment destinations live in `src/lib/site.ts`; this keeps links consistent across site sections.

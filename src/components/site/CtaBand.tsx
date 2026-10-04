@@ -1,4 +1,4 @@
-import { CALENDLY_URL } from "@/lib/site";
+import { INTRODUCTORY_CONVERSATION_URL } from "@/lib/site";
 
 const steps = [
   {
@@ -43,7 +43,7 @@ export function CtaBand() {
         </div>
         <div className="mt-10 flex justify-center">
           <a
-            href={CALENDLY_URL}
+            href={INTRODUCTORY_CONVERSATION_URL}
             target="_blank"
             rel="noreferrer"
             className="rounded-md bg-gold px-8 py-4 text-base font-semibold text-gold-foreground transition-opacity hover:opacity-90"
