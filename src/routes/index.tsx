@@ -47,7 +47,7 @@ function Index() {
       <WhyNow />
       <PointOfView />
       <About />
-      <TrackRecord />
+      <TrackRecord framingLine="The operating record behind the advisory — two decades of technology and risk leadership at enterprise scale." />
       <ServicesGrid />
       <BriefingDeliverable />
       <CtaBand />
