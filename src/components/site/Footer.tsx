@@ -1,4 +1,4 @@
-import { BRAND, CONTACT_EMAIL, LINKEDIN_URL } from "@/lib/site";
+import { BRAND, CONTACT_EMAIL, LINKEDIN_URL, PHONE_DISPLAY, PHONE_HREF } from "@/lib/site";
 import logoWhite from "@/assets/virtuminds-logo-white.png";
 
 export function Footer() {
@@ -15,9 +15,17 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col gap-2 text-sm sm:items-end">
-          <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-gold">
-            {CONTACT_EMAIL}
-          </a>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-gold">
+              {CONTACT_EMAIL}
+            </a>
+            <span className="text-navy-foreground/30" aria-hidden="true">
+              ·
+            </span>
+            <a href={PHONE_HREF} className="hover:text-gold">
+              {PHONE_DISPLAY}
+            </a>
+          </div>
           <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="hover:text-gold">
             LinkedIn
           </a>
