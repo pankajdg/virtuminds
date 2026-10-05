@@ -47,6 +47,7 @@ function Index() {
       <About />
       <TrackRecord />
       <ServicesGrid />
+      <BriefingDeliverable />
       <CtaBand />
       <Footer />
     </main>
