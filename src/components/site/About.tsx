@@ -7,7 +7,7 @@ const blocks = [
   },
   {
     title: "Technical risk, governed as business risk",
-    body: "Through Virtuminds, I help boards and executive teams translate technical risk into governed business decisions — before a crisis forces the conversation.",
+    body: "Through Virtuminds, I help boards and executive teams translate AI and technical risk into governed business decisions — before a crisis forces the conversation.",
   },
   {
     title: "Track record at scale",

@@ -26,12 +26,15 @@ const records = [
   },
 ];
 
-export function TrackRecord() {
+export function TrackRecord({ framingLine }: { framingLine?: string }) {
   return (
     <section id="track-record" className="scroll-mt-24 bg-background py-24">
       <div className="section-shell">
         <p className="eyebrow">Track Record</p>
         <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Selected results</h2>
+        {framingLine ? (
+          <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">{framingLine}</p>
+        ) : null}
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {records.map((record) => (
             <article
