@@ -6,6 +6,7 @@ import { WhyNow } from "@/components/site/WhyNow";
 import { About } from "@/components/site/About";
 import { TrackRecord } from "@/components/site/TrackRecord";
 import { ServicesGrid } from "@/components/site/ServicesGrid";
+import { BriefingDeliverable } from "@/components/site/BriefingDeliverable";
 import { CtaBand } from "@/components/site/CtaBand";
 import { Footer } from "@/components/site/Footer";
 
