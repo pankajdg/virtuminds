@@ -3,6 +3,7 @@ import { FloatingNav } from "@/components/site/FloatingNav";
 import { Hero } from "@/components/site/Hero";
 import { TrustStrip } from "@/components/site/TrustStrip";
 import { WhyNow } from "@/components/site/WhyNow";
+import { PointOfView } from "@/components/site/PointOfView";
 import { About } from "@/components/site/About";
 import { TrackRecord } from "@/components/site/TrackRecord";
 import { ServicesGrid } from "@/components/site/ServicesGrid";
@@ -44,6 +45,7 @@ function Index() {
       <Hero />
       <TrustStrip />
       <WhyNow />
+      <PointOfView />
       <About />
       <TrackRecord />
       <ServicesGrid />
