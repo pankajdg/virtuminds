@@ -62,7 +62,7 @@ export function Hero() {
             alt="Portrait of the Virtuminds founder and AI governance advisor"
             width={928}
             height={1230}
-            className="relative w-full rounded-lg object-cover shadow-2xl ring-1 ring-navy-foreground/15"
+            className="relative h-auto w-full rounded-lg object-cover shadow-2xl ring-1 ring-navy-foreground/15"
           />
         </div>
       </div>

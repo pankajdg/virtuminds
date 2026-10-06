@@ -24,10 +24,10 @@ export function About() {
           <img
             src={portrait}
             alt="Portrait of the Virtuminds founder and AI governance advisor"
-            width={1024}
-            height={1280}
+            width={928}
+            height={1230}
             loading="lazy"
-            className="relative w-full rounded-lg object-cover shadow-xl"
+            className="relative h-auto w-full rounded-lg object-cover shadow-xl"
           />
         </div>
         <div>
