@@ -22,6 +22,9 @@ export function Hero() {
           level. I help boards and executive teams make sound decisions on AI adoption and cyber
           risk, before either becomes a crisis.
         </p>
+        <p className="mt-4 text-sm font-medium text-navy-foreground/70">
+          — Pankaj Gupta, Founder, Virtuminds Advisory
+        </p>
         <div className="mt-5 text-xs font-semibold uppercase tracking-[0.15em] text-gold">
           AI Strategy & Governance · Cybersecurity & Risk Advisory
         </div>

@@ -12,6 +12,7 @@ export function Footer() {
             <p className="mt-1 text-sm text-navy-foreground/60">
               AI governance advisory for boards and executives.
             </p>
+            <p className="mt-1 text-sm text-navy-foreground/60">Founded by Pankaj Gupta.</p>
           </div>
         </div>
         <div className="flex flex-col gap-2 text-sm sm:items-end">
