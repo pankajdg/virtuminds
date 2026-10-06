@@ -11,4 +11,4 @@
 - [x] Hero byline "— Pankaj Gupta, Founder, Virtuminds Advisory" (homepage)
 - [x] About: open with "I'm Pankaj Gupta." (homepage and /about)
 - [x] Footer: "Founded by Pankaj Gupta."
-- [ ] Publish current preview (name byline, About opener, footer founder line)
+- [x] Publish current preview (name byline, About opener, footer founder line)
