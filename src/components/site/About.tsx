@@ -23,7 +23,7 @@ export function About() {
           <div className="absolute -left-3 -top-3 hidden h-full w-full rounded-lg border border-gold/50 lg:-left-4 lg:-top-4 lg:block" />
           <img
             src={portrait}
-            alt="Portrait of the Virtuminds founder and cyber risk advisor"
+            alt="Portrait of the Virtuminds founder and AI governance advisor"
             width={1024}
             height={1280}
             loading="lazy"
