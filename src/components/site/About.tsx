@@ -3,7 +3,7 @@ import portrait from "@/assets/portrait.jpg";
 const blocks = [
   {
     title: "Built it before advising on it",
-    body: "I spent 11+ years directly building and running enterprise infrastructure and security programs at Cisco, then 7 years advising Intuit's leadership at the executive level.",
+    body: "I'm Pankaj Gupta. I spent 11+ years directly building and running enterprise infrastructure and security programs at Cisco, then 7 years advising Intuit's leadership at the executive level.",
   },
   {
     title: "Technical risk, governed as business risk",
