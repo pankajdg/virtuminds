@@ -13,7 +13,7 @@ export function Hero() {
         className="absolute inset-0 h-full w-full object-cover opacity-60"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy-deep/85 to-navy-deep/40" />
-      <div className="section-shell relative grid min-h-[88vh] items-center gap-12 py-32 lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-16">
+      <div className="section-shell relative grid min-h-[88vh] items-center gap-12 py-32 text-navy-foreground lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-16">
         <div className="flex flex-col justify-center">
           <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl lg:text-6xl">
             AI strategy and governance, translated into board-ready decisions.
