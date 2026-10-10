@@ -55,14 +55,13 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="relative mx-auto w-full max-w-[260px] sm:max-w-[300px] lg:mx-0 lg:max-w-[320px]">
-          <div className="absolute -bottom-3 -right-3 hidden h-full w-full rounded-lg border border-gold/40 lg:block" />
+        <div className="relative mx-auto w-full max-w-[260px] overflow-hidden rounded-lg shadow-2xl ring-2 ring-gold/60 sm:max-w-[300px] lg:mx-0 lg:max-w-[320px]">
           <img
             src={portrait}
             alt="Portrait of the Virtuminds founder and AI governance advisor"
             width={928}
             height={1230}
-            className="relative h-auto w-full rounded-lg object-cover shadow-2xl ring-1 ring-navy-foreground/15"
+            className="block h-auto w-full object-cover"
           />
         </div>
       </div>

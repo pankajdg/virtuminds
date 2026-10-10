@@ -19,15 +19,14 @@ export function About() {
   return (
     <section id="about" className="bg-secondary/50 py-16 lg:py-20">
       <div className="section-shell grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-        <div className="relative">
-          <div className="absolute -left-3 -top-3 hidden h-full w-full rounded-lg border border-gold/50 lg:-left-4 lg:-top-4 lg:block" />
+        <div className="relative overflow-hidden rounded-lg shadow-xl ring-2 ring-gold/60">
           <img
             src={portrait}
             alt="Portrait of the Virtuminds founder and AI governance advisor"
             width={928}
             height={1230}
             loading="lazy"
-            className="relative h-auto w-full rounded-lg object-cover shadow-xl"
+            className="block h-auto w-full object-cover"
           />
         </div>
         <div>
