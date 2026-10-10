@@ -73,6 +73,31 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
   );
 }
 
+const PERSON_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Pankaj Gupta",
+  jobTitle: "Founder, Virtuminds Advisory",
+  description:
+    "AI governance advisor for boards and executives. 24+ years in enterprise technology — 11 years building and running infrastructure and security programs at Cisco, then 7 years advising Intuit's leadership at the executive level.",
+  url: "https://www.virtumindsadvisory.com/",
+  telephone: "+1-408-307-4241",
+  sameAs: ["https://www.linkedin.com/in/pankajdgup/"],
+  knowsAbout: [
+    "AI governance",
+    "AI strategy",
+    "Board advisory",
+    "AI risk management",
+    "Cybersecurity risk",
+    "NIST AI Risk Management Framework",
+    "ISO 42001",
+  ],
+  alumniOf: [
+    { "@type": "Organization", "name": "Cisco" },
+    { "@type": "Organization", "name": "Intuit" },
+  ],
+};
+
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
@@ -97,6 +122,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       { rel: "icon", href: "/favicon.png", type: "image/png" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(PERSON_SCHEMA),
+      },
     ],
   }),
 
