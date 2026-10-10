@@ -13,4 +13,4 @@
 - [x] Footer: "Founded by Pankaj Gupta."
 - [x] Publish current preview (name byline, About opener, footer founder line)
 - [x] Publish portrait alignment fix (hero + About portrait framing)
-- [ ] Redeploy the current version to Netlify so virtumindsadvisory.com catches up (domain is served by Netlify, not this hosting; it is missing the hero portrait and the name lines). Blocked: Netlify credits exhausted, refresh on the 11th.
+- [ ] On hold until Pankaj gives the go-ahead: redeploy the current version to Netlify so virtumindsadvisory.com catches up (domain is served by Netlify, not this hosting; it is missing the hero portrait and the name lines). Netlify credits refresh on the 11th.
