@@ -4,5 +4,5 @@ export const INTRODUCTORY_CONVERSATION_URL =
 export const CONTACT_EMAIL = "hello@virtumindsadvisory.com";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/pankajdgup/";
 export const BRAND = "Virtuminds";
-export const PHONE_DISPLAY = "(408) 307-4241";
-export const PHONE_HREF = "tel:+14083074241";
+export const PHONE_DISPLAY = "(248) 587-7776";
+export const PHONE_HREF = "tel:+12485877776";
