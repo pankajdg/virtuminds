@@ -47,7 +47,7 @@ function Index() {
       <WhyNow />
       <PointOfView />
       <About />
-      <TrackRecord framingLine="The operating record behind the advisory — two decades of technology and risk leadership at enterprise scale." />
+      <TrackRecord framingLine="Results that transfer. Each engagement below built the operating discipline behind Virtuminds' AI governance work — measured in outcomes, not years." />
       <ServicesGrid />
       <BriefingDeliverable />
       <CtaBand />
