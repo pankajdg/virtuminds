@@ -6,6 +6,7 @@ import { WhyNow } from "@/components/site/WhyNow";
 import { PointOfView } from "@/components/site/PointOfView";
 import { About } from "@/components/site/About";
 import { TrackRecord } from "@/components/site/TrackRecord";
+import { Testimonials } from "@/components/site/Testimonials";
 import { ServicesGrid } from "@/components/site/ServicesGrid";
 import { BriefingDeliverable } from "@/components/site/BriefingDeliverable";
 import { CtaBand } from "@/components/site/CtaBand";
