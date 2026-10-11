@@ -3,7 +3,7 @@ const testimonials = [
     quote: [
       "I worked with Pankaj Gupta in our MTL Advisory program. Pankaj was the person who brought order to complex regulatory work — he understood the compliance requirements and, just as importantly, how to make them work operationally across teams. He asked the right questions, held people accountable, and kept the program moving without cutting corners. I’d work with him again without hesitation.",
     ],
-    attribution: "Mike Martinez, CAMS, Compliance at Lithic (formerly Intuit)",
+    attribution: "Mike Martinez, Compliance at Lithic",
   },
   {
     quote: [
