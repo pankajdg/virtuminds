@@ -35,6 +35,9 @@ export function FloatingNav() {
         <Link to="/about" className={linkClass} activeProps={{ className: "bg-secondary" }}>
           About
         </Link>
+        <Link to="/insights" className={linkClass} activeProps={{ className: "bg-secondary" }}>
+          Insights
+        </Link>
         <DropdownMenu>
           <DropdownMenuTrigger className="ml-1 flex items-center gap-1.5 rounded-full bg-gold px-4 py-2 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90 focus:outline-none">
             Schedule a meeting

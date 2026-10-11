@@ -19,3 +19,4 @@
 - [x] Homepage Testimonials section ("What colleagues say", two quote cards) between Track Record and Services, published to virtuminds.lovable.app
 - [x] Testimonial card 1 name line: "Mike Martinez, Compliance at Lithic", published to virtuminds.lovable.app
 - [ ] On hold until Pankaj gives the go-ahead: redeploy the current version to Netlify so virtumindsadvisory.com catches up (domain is served by Netlify, not this hosting; it is missing the hero portrait and the name lines). Netlify credits refresh on the 11th.
+- [x] Insights page at /insights with "Questions every director should ask about AI" + nav link
