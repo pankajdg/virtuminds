@@ -18,8 +18,7 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="scroll-mt-24 border-y border-border bg-secondary py-16 lg:py-20">
       <div className="section-shell">
-        <p className="eyebrow">Testimonials</p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">What colleagues say</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl">Testimonials</h2>
 
         <div className="mt-10 flex flex-wrap gap-6">
           {testimonials.map((testimonial) => (
