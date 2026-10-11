@@ -14,4 +14,5 @@
 - [x] Publish current preview (name byline, About opener, footer founder line)
 - [x] Publish portrait alignment fix (hero + About portrait framing)
 - [x] Add Person JSON-LD to every page and publish to virtuminds.lovable.app
+- [x] New phone number (248) 587-7776 in footer + Person schema, published to virtuminds.lovable.app
 - [ ] On hold until Pankaj gives the go-ahead: redeploy the current version to Netlify so virtumindsadvisory.com catches up (domain is served by Netlify, not this hosting; it is missing the hero portrait and the name lines). Netlify credits refresh on the 11th.
