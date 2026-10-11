@@ -8,21 +8,29 @@ const records = [
     image: datacenter,
     headline: "A default that quietly cost millions",
     result: "3.5% cut in annual leased-asset spend",
+    lesson:
+      "Untracked spend is untracked risk. The same cost-governance discipline now maps AI tool sprawl — every unsanctioned subscription is shadow AI with a price tag.",
   },
   {
     image: soc,
     headline: "A platform that funded its own growth",
     result: "25 → 200+ internal teams in 2 years",
+    lesson:
+      "Governance that scales with adoption. The platform controls that carried 200+ teams are the template for AI guardrails that enable speed instead of blocking it.",
   },
   {
     image: tower,
     headline: "Six months of downtime, recovered fast",
     result: "6-week recovery vs. 6-month estimate",
+    lesson:
+      "Incident discipline transfers directly. When AI fails in production — and it will — recovery speed is a governance outcome, not luck.",
   },
   {
     image: board,
     headline: "Four deadlines, one framework, zero misses",
     result: "$150M saved, zero missed deadlines",
+    lesson:
+      "A $150M regulatory program delivered with zero missed deadlines. That compliance machinery is the template for EU AI Act, NIST AI RMF, and ISO 42001 readiness.",
   },
 ];
 
