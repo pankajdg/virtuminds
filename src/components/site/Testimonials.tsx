@@ -27,15 +27,17 @@ export function Testimonials() {
               key={testimonial.attribution}
               className="flex flex-1 basis-80 flex-col rounded-lg bg-navy p-7 text-navy-foreground lg:p-8"
             >
-              <span className="font-display text-4xl leading-none text-gold" aria-hidden="true">
-                &ldquo;
-              </span>
-              <blockquote className="mt-4 space-y-4 text-sm leading-relaxed text-navy-foreground/90 lg:text-base">
-                {testimonial.quote.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
-              </blockquote>
-              <figcaption className="mt-auto border-t border-navy-foreground/15 pt-4 text-sm font-semibold text-gold">
+              <div className="flex flex-1 flex-col justify-center">
+                <span className="font-display text-4xl leading-none text-gold" aria-hidden="true">
+                  &ldquo;
+                </span>
+                <blockquote className="mt-4 space-y-4 text-sm leading-relaxed text-navy-foreground/90 lg:text-base">
+                  {testimonial.quote.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+                </blockquote>
+              </div>
+              <figcaption className="mt-6 border-t border-navy-foreground/15 pt-4 text-sm font-semibold text-gold">
                 <span aria-hidden="true">— </span>
                 {testimonial.attribution}
               </figcaption>
