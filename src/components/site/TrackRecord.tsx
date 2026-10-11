@@ -47,22 +47,27 @@ export function TrackRecord({ framingLine }: { framingLine?: string }) {
           {records.map((record) => (
             <article
               key={record.headline}
-              className="group relative overflow-hidden rounded-lg bg-navy-deep"
+              className="group flex h-full flex-col overflow-hidden rounded-lg border border-border bg-card"
             >
-              <img
-                src={record.image}
-                alt={record.headline}
-                width={1024}
-                height={768}
-                loading="lazy"
-                className="h-72 w-full object-cover opacity-60 transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-navy-deep via-navy-deep/50 to-transparent p-7 text-navy-foreground">
-                <h3 className="text-lg font-semibold">{record.headline}</h3>
-                <p className="mt-1 font-display text-xl font-bold text-gold sm:text-2xl">
-                  {record.result}
-                </p>
+              <div className="relative">
+                <img
+                  src={record.image}
+                  alt={record.headline}
+                  width={1024}
+                  height={768}
+                  loading="lazy"
+                  className="h-72 w-full object-cover opacity-60 transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-navy-deep via-navy-deep/50 to-transparent p-7 text-navy-foreground">
+                  <h3 className="text-lg font-semibold">{record.headline}</h3>
+                  <p className="mt-1 font-display text-xl font-bold text-gold sm:text-2xl">
+                    {record.result}
+                  </p>
+                </div>
               </div>
+              <p className="border-t-2 border-gold/50 p-6 text-sm leading-relaxed text-muted-foreground lg:p-7">
+                {record.lesson}
+              </p>
             </article>
           ))}
         </div>
