@@ -25,8 +25,7 @@ export function ServicesGrid() {
   return (
     <section id="services" className="scroll-mt-24 bg-background py-16 lg:py-20">
       <div className="section-shell">
-        <p className="eyebrow">Services</p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">How I help</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl">How I help</h2>
         <div className="mt-8 grid gap-px overflow-hidden rounded-lg border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div key={service.title} className="bg-card p-6 lg:p-8">

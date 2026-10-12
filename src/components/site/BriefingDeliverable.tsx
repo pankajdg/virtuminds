@@ -45,8 +45,7 @@ export function BriefingDeliverable() {
   return (
     <section className="border-y border-border bg-secondary py-16 lg:py-20">
       <div className="section-shell">
-        <p className="eyebrow text-gold">The Briefing deliverable</p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">What you walk away with</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl">What you walk away with</h2>
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">
           Every Readiness Briefing ends with a one-page AI exposure map — what we confirmed,
           what&rsquo;s inferred, and what we still don&rsquo;t know. Below is an illustrative sample
