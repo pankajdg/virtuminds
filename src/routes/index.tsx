@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Virtuminds helps boards and executive teams govern AI adoption with the clarity and rigor they apply to financial risk — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
+          "Virtuminds helps boards and executive teams govern AI adoption with the clarity and rigor they apply to financial risk — 24+ years across Cisco, Intuit and large enterprises.",
       },
       { property: "og:title", content: "Virtuminds | AI Governance Advisory for Boards" },
       {
@@ -28,12 +28,12 @@ export const Route = createFileRoute("/")({
           "Board-ready guidance on AI strategy, governance, and cyber risk.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://virtumindsadvisory.com/" },
       { property: "og:image", content: "https://virtumindsadvisory.com/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "https://virtumindsadvisory.com/og-image.png" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://virtumindsadvisory.com/" }],
   }),
 
   component: Index,

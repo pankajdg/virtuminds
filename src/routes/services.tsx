@@ -11,20 +11,20 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "AI Governance Readiness Briefing, Board and Executive Advisory, and AI Risk Due Diligence for M&A and private equity — 24+ years across Cisco, Intuit and Fortune 100 enterprises.",
+          "AI Governance Readiness Briefing, Board and Executive Advisory, and AI Risk Due Diligence for M&A and private equity — 24+ years across Cisco, Intuit and large enterprises.",
       },
       { property: "og:title", content: "Services — Virtuminds" },
       {
         property: "og:description",
-        content: "Advisory scoped tightly around the cyber risk decision at hand.",
+        content: "AI governance advisory built around the decision in front of you.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/services" },
+      { property: "og:url", content: "https://virtumindsadvisory.com/services" },
       { property: "og:image", content: "https://virtumindsadvisory.com/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "https://virtumindsadvisory.com/og-image.png" },
     ],
-    links: [{ rel: "canonical", href: "/services" }],
+    links: [{ rel: "canonical", href: "https://virtumindsadvisory.com/services" }],
   }),
 
   component: ServicesPage,

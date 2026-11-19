@@ -20,9 +20,9 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-2xl leading-relaxed text-navy-foreground/75">
             24+ years in enterprise technology — 11 years building and running infrastructure and
-            security programs at Cisco, then 7 years advising Intuit's leadership at the executive
-            level. I help boards and executive teams make sound decisions on AI adoption and cyber
-            risk, before either becomes a crisis.
+            security programs at Cisco, then 7 years advising Intuit's leadership — including a
+            ~$150M regulatory program with zero missed deadlines. I help boards and executive teams
+            make sound decisions on AI adoption and cyber risk, before either becomes a crisis.
           </p>
           <p className="mt-4 text-sm font-medium text-navy-foreground/70">
             — Pankaj Gupta, Founder, Virtuminds Advisory

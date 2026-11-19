@@ -28,7 +28,7 @@ const blocks: { title: string; body: ReactNode }[] = [
   },
   {
     title: "Track record at scale",
-    body: "24+ years across Cisco, Intuit, and Fortune 100 enterprises, including a $150M regulatory compliance program guided to zero missed deadlines.",
+    body: "24+ years across Cisco, Intuit, and large enterprises. I advised Intuit on its Money Transmission License program — a ~$150M program with zero missed regulatory deadlines.",
   },
 ];
 

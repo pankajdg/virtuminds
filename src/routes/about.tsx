@@ -18,15 +18,15 @@ export const Route = createFileRoute("/about")({
       { property: "og:title", content: "About — Virtuminds" },
       {
         property: "og:description",
-        content: "Operator experience across Fortune 100 enterprises, applied at the board level.",
+        content: "Operator experience across large enterprises, applied at the board level.",
       },
       { property: "og:type", content: "profile" },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: "https://virtumindsadvisory.com/about" },
       { property: "og:image", content: "https://virtumindsadvisory.com/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "https://virtumindsadvisory.com/og-image.png" },
     ],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: "https://virtumindsadvisory.com/about" }],
   }),
 
   component: AboutPage,
