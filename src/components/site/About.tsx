@@ -1,9 +1,26 @@
+import type { ReactNode } from "react";
 import portrait from "@/assets/portrait.jpg";
 
-const blocks = [
+const blocks: { title: string; body: ReactNode }[] = [
   {
     title: "Built it before advising on it",
-    body: "I'm Pankaj Gupta. I spent 11+ years directly building and running enterprise infrastructure and security programs at Cisco, then 7 years advising Intuit's leadership at the executive level.",
+    body: (
+      <>
+        I&apos;m Pankaj Gupta. I spent 11+ years directly building and running enterprise
+        infrastructure and security programs at Cisco, then 7 years advising Intuit&apos;s
+        leadership at the executive level. I&apos;m Strategic Advisor to{" "}
+        <a
+          href="https://www.sanctumshield.com"
+          target="_blank"
+          rel="noreferrer"
+          className="underline underline-offset-2 hover:text-gold"
+        >
+          SanctumShield
+        </a>
+        , advising on the development and go-to-market of agent-governance solutions for the
+        mid-market.
+      </>
+    ),
   },
   {
     title: "Technical risk, governed as business risk",
