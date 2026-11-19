@@ -13,6 +13,9 @@ export function Footer() {
               AI governance advisory for boards and executives.
             </p>
             <p className="mt-1 text-sm text-navy-foreground/60">Founded by Pankaj Gupta.</p>
+            <p className="mt-1 text-sm text-navy-foreground/60">
+              Based in the San Francisco Bay Area.
+            </p>
           </div>
         </div>
         <div className="flex flex-col gap-2 text-sm sm:items-end">
@@ -30,6 +33,17 @@ export function Footer() {
           <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="hover:text-gold">
             LinkedIn
           </a>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            <a href="/privacy" className="hover:text-gold">
+              Privacy
+            </a>
+            <span className="text-navy-foreground/30" aria-hidden="true">
+              ·
+            </span>
+            <a href="/terms" className="hover:text-gold">
+              Terms
+            </a>
+          </div>
           <p className="text-navy-foreground/50">
             © {new Date().getFullYear()} {BRAND}. All rights reserved.
           </p>

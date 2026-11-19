@@ -39,7 +39,7 @@ export function About() {
         <div className="relative overflow-hidden rounded-lg shadow-xl ring-2 ring-gold/60">
           <img
             src={portrait}
-            alt="Portrait of the Virtuminds founder and AI governance advisor"
+            alt="Pankaj Gupta, founder of Virtuminds Advisory"
             width={928}
             height={1230}
             loading="lazy"
