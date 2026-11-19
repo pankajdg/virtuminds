@@ -1,12 +1,21 @@
-const companies = [
-  "Cisco",
-  "Intuit",
-  "GE",
-  "HP",
-  "DirecTV",
-  "Wachovia",
-  "AOL",
-  "Constellation Energy",
+import cisco from "@/assets/logos/cisco.png";
+import intuit from "@/assets/logos/intuit.png";
+import ge from "@/assets/logos/ge.png";
+import hp from "@/assets/logos/hp.png";
+import directv from "@/assets/logos/directv.png";
+import wachovia from "@/assets/logos/wachovia.png";
+import aol from "@/assets/logos/aol.png";
+import constellation from "@/assets/logos/constellation.png";
+
+const logos = [
+  { name: "Cisco", src: cisco },
+  { name: "Intuit", src: intuit },
+  { name: "GE", src: ge },
+  { name: "HP", src: hp },
+  { name: "DirecTV", src: directv },
+  { name: "Wachovia", src: wachovia },
+  { name: "AOL", src: aol },
+  { name: "Constellation Energy", src: constellation },
 ];
 
 export function TrustStrip() {
@@ -14,13 +23,15 @@ export function TrustStrip() {
     <section className="border-b border-border bg-card py-12">
       <div className="section-shell text-center">
         <p className="eyebrow">Experience Across Large Enterprises</p>
-        <ul className="mt-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
-          {companies.map((company) => (
-            <li
-              key={company}
-              className="font-display text-lg font-semibold tracking-tight text-muted-foreground/80"
-            >
-              {company}
+        <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
+          {logos.map((logo) => (
+            <li key={logo.name}>
+              <img
+                src={logo.src}
+                alt={logo.name}
+                className="h-8 w-auto grayscale opacity-70"
+                loading="lazy"
+              />
             </li>
           ))}
         </ul>
