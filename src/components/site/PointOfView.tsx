@@ -50,9 +50,7 @@ export function PointOfView() {
 
         <blockquote className="mt-10 border-l-2 border-gold bg-navy px-6 py-6 text-navy-foreground lg:px-8 lg:py-8">
           <p className="max-w-3xl text-lg font-medium leading-relaxed sm:text-xl">
-            Virtuminds takes{" "}
-            <span className="text-gold">no vendor incentives and no referral fees</span>. The
-            principal who signs is the principal who delivers.
+            The principal who signs is the principal who delivers.
           </p>
         </blockquote>
       </div>
