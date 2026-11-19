@@ -29,7 +29,7 @@ export function TrustStrip() {
               <img
                 src={logo.src}
                 alt={logo.name}
-                className="h-8 w-auto grayscale opacity-70"
+                className="h-8 w-auto"
                 loading="lazy"
               />
             </li>
