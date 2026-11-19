@@ -48,8 +48,8 @@ export function BriefingDeliverable() {
         <h2 className="text-3xl font-bold sm:text-4xl">What you walk away with</h2>
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">
           Every Readiness Briefing ends with a one-page AI exposure map — what we confirmed,
-          what&rsquo;s inferred, and what we still don&rsquo;t know. Below is an illustrative
-          example, not a real client.
+          what&rsquo;s inferred, and what we still don&rsquo;t know. We build it from your AI/SaaS
+          inventory. Below is an illustrative example, not a real client.
         </p>
 
         <figure className="mx-auto mt-10 max-w-3xl overflow-hidden rounded-lg border border-navy/15 bg-navy text-navy-foreground shadow-xl shadow-navy/15">
