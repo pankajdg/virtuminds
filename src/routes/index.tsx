@@ -46,11 +46,11 @@ function Index() {
       <Hero />
       <TrustStrip />
       <WhyNow />
+      <ServicesGrid />
       <PointOfView />
       <About />
       <TrackRecord framingLine="Results that transfer. Each engagement below built the operating discipline behind Virtuminds' AI governance work — measured in outcomes, not years." />
       <Testimonials />
-      <ServicesGrid />
       <BriefingDeliverable />
       <CtaBand />
       <Footer />

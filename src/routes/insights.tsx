@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { FloatingNav } from "@/components/site/FloatingNav";
 import { Footer } from "@/components/site/Footer";
-import { INTRODUCTORY_CONVERSATION_URL } from "@/lib/site";
+import { INTRODUCTORY_CONVERSATION_URL, LINKEDIN_URL } from "@/lib/site";
 
 const TITLE = "Insights — AI Governance for Boards | Virtuminds";
 const DESC =
@@ -55,6 +55,9 @@ function InsightsPage() {
           <h2 className="mt-6 text-3xl font-bold sm:text-4xl">
             Questions every director should ask about AI
           </h2>
+          <p className="mt-4 text-sm text-muted-foreground">
+            By Pankaj Gupta · October 2026
+          </p>
           <p className="mt-6 text-lg text-muted-foreground">
             Boards are being asked to oversee AI. Most can't answer these seven questions. If yours
             can't either, that's the starting point — not a failure.
@@ -85,6 +88,18 @@ function InsightsPage() {
               Start with a conversation
             </a>
           </div>
+          <p className="mt-10 text-sm text-muted-foreground">
+            New pieces appear here, and on{" "}
+            <a
+              href={LINKEDIN_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              LinkedIn
+            </a>
+            .
+          </p>
         </article>
       </section>
       <Footer />
