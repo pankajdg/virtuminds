@@ -30,7 +30,7 @@ const records = [
     image: tower,
     headline: "A failed upgrade, recovered in six weeks",
     result: "6 weeks vs. a 6-month estimate",
-    did: "I recovered a failed third-party upgrade, restored data integrity and finished in six weeks.",
+    did: "At Constellation Energy, I recovered a failed third-party HP PPM upgrade and finished in six weeks (2005–07, via Birlasoft).",
     lesson: "AI will fail in production too, and recovery speed is a governance question.",
   },
 ];
