@@ -1,6 +1,6 @@
 import hero from "@/assets/hero.jpg";
 import portrait from "@/assets/portrait.jpg";
-import { CALENDLY_URL, INTRODUCTORY_CONVERSATION_URL } from "@/lib/site";
+import { INTRODUCTORY_CONVERSATION_URL } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -16,44 +16,37 @@ export function Hero() {
       <div className="section-shell relative grid min-h-[88vh] items-center gap-12 py-32 text-navy-foreground lg:grid-cols-[minmax(0,1fr)_auto] lg:gap-16">
         <div className="flex flex-col justify-center">
           <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] sm:text-5xl lg:text-6xl">
-            AI strategy and governance, translated into board-ready decisions.
+            Your board is accountable for AI it can&rsquo;t yet see.
           </h1>
           <p className="mt-6 max-w-2xl leading-relaxed text-navy-foreground/75">
-            24+ years in enterprise technology — 11 years running enterprise platform and
-            compliance programs at Cisco, then 7 years advising Intuit's leadership — including a
-            ~$150M regulatory program with zero missed deadlines. I help boards and executive teams
-            make sound decisions on AI adoption and cyber risk, before either becomes a crisis.
+            Most companies run more AI than anyone has approved. I help boards and executive teams
+            find out what&rsquo;s actually in use, decide what to do about it, and be able to show
+            their work later.
           </p>
-          <p className="mt-4 text-sm font-medium text-navy-foreground/70">
-            — Pankaj Gupta, Founder, Virtuminds Advisory
+          <p className="mt-4 max-w-2xl text-sm font-medium leading-relaxed text-navy-foreground/70">
+            — Pankaj Gupta, Founder, Virtuminds Advisory. 11 years running enterprise platform
+            and compliance programs at Cisco, then 7 years advising Intuit&rsquo;s leadership,
+            including a ~$150M regulatory program with zero missed deadlines.
           </p>
           <div className="mt-5 text-xs font-semibold uppercase tracking-[0.15em] text-gold">
             AI Strategy & Governance · Cybersecurity & Risk Advisory
           </div>
-          <div className="mt-9 flex flex-wrap gap-3">
+          <div className="mt-9 flex flex-wrap items-center gap-3">
             <a
               href={INTRODUCTORY_CONVERSATION_URL}
               target="_blank"
               rel="noreferrer"
               className="rounded-md bg-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90"
             >
-              Introductory conversation
-            </a>
-            <a
-              href={CALENDLY_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-md border border-gold px-6 py-3.5 text-sm font-semibold text-gold transition-colors hover:bg-gold/10"
-            >
-              Book 1:1 Advisory
-            </a>
-            <a
-              href="#track-record"
-              className="rounded-md border border-navy-foreground/40 px-6 py-3.5 text-sm font-semibold text-navy-foreground transition-colors hover:bg-navy-foreground/10"
-            >
-              See the Track Record
+              Book a 30-minute conversation
             </a>
           </div>
+          <p className="mt-4 text-sm text-navy-foreground/70">
+            Not ready to talk?{" "}
+            <a href="/insights" className="font-medium text-gold underline underline-offset-2 hover:opacity-90">
+              Read the seven questions every director should ask about AI &rarr;
+            </a>
+          </p>
         </div>
         <div className="relative mx-auto w-full max-w-[260px] overflow-hidden rounded-lg shadow-2xl ring-2 ring-gold/60 sm:max-w-[300px] lg:mx-0 lg:max-w-[320px]">
           <img
