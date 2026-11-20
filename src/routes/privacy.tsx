@@ -44,10 +44,13 @@ function PrivacyPage() {
           <div>
             <h2 className="text-xl font-semibold text-foreground">What this site collects</h2>
             <p className="mt-3">
-              This website does not run analytics or advertising trackers, does not set marketing
-              cookies, and does not ask you to create an account or submit forms on this site. Our
-              hosting provider may record standard server information (such as IP address and
-              browser type) for security and operational purposes.
+              This website does not run advertising trackers, does not set marketing cookies, and
+              does not ask you to create an account or submit forms on this site. We use Plausible
+              Analytics, a privacy-friendly service that does not use cookies, does not collect
+              personal data, and cannot identify individual visitors; it counts visits in
+              aggregate (such as pages viewed, referring sites, and country). Our hosting
+              provider may record standard server information (such as IP address and browser
+              type) for security and operational purposes.
             </p>
           </div>
           <div>

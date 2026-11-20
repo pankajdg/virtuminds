@@ -169,6 +169,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         type: "application/ld+json",
         children: JSON.stringify(BUSINESS_SCHEMA),
       },
+      {
+        defer: true,
+        "data-domain": "virtumindsadvisory.com",
+        src: "https://plausible.io/js/script.outbound-links.js",
+      },
     ],
   }),
 
