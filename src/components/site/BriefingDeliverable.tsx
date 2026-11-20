@@ -17,7 +17,7 @@ const findings: {
   {
     title: "Shadow AI",
     status: "CONFIRMED",
-    body: "14 unsanctioned AI tools in use across 3 business units, including 2 with access to customer PII.",
+    body: "14 unsanctioned AI tools reported across 3 business units, including 2 with access to customer PII.",
   },
   {
     title: "Third-party & model risk",
@@ -26,8 +26,8 @@ const findings: {
   },
   {
     title: "Data leakage paths",
-    status: "CONFIRMED",
-    body: "Code and customer records shared with external LLMs via browser extensions.",
+    status: "INFERRED",
+    body: "Code and customer records likely reaching external LLMs through browser extensions, based on questionnaire answers and security review notes.",
   },
   {
     title: "Governance gaps",
@@ -49,7 +49,8 @@ export function BriefingDeliverable() {
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">
           Every Readiness Briefing ends with a one-page AI exposure map — what we confirmed,
           what&rsquo;s inferred, and what we still don&rsquo;t know. We build it from your AI/SaaS
-          inventory. Below is an illustrative example, not a real client.
+          inventory — your answers and documents, not technical testing. Below is an illustrative
+          example, not a real client.
         </p>
 
         <figure className="mx-auto mt-10 max-w-3xl overflow-hidden rounded-lg border border-navy/15 bg-navy text-navy-foreground shadow-xl shadow-navy/15">
