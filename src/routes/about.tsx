@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "11+ years building and running enterprise infrastructure and security programs at Cisco, then 7 years advising Intuit leadership at the executive level.",
+          "11+ years running enterprise platform and compliance programs at Cisco, then 7 years advising Intuit leadership at the executive level.",
       },
       { property: "og:title", content: "About — Virtuminds" },
       {
