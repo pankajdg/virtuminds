@@ -17,7 +17,7 @@ const findings: {
   {
     title: "Shadow AI",
     status: "CONFIRMED",
-    body: "14 unsanctioned AI tools detected in network traffic across 3 business units, including 2 with access to customer PII.",
+    body: "14 unsanctioned AI tools in use across 3 business units, including 2 with access to customer PII.",
   },
   {
     title: "Third-party & model risk",
@@ -27,7 +27,7 @@ const findings: {
   {
     title: "Data leakage paths",
     status: "CONFIRMED",
-    body: "Code and customer records observed in prompts sent to external LLMs via browser extensions.",
+    body: "Code and customer records shared with external LLMs via browser extensions.",
   },
   {
     title: "Governance gaps",

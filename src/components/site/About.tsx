@@ -28,7 +28,7 @@ const blocks: { title: string; body: ReactNode }[] = [
   },
   {
     title: "Track record at scale",
-    body: "24+ years across Cisco, Intuit, and large enterprises. I advised Intuit on its Money Transmission License program — a ~$150M program with zero missed regulatory deadlines.",
+    body: "24+ years across Cisco, Intuit, and large enterprises. I advised Intuit on its Money Transmission License program — a ~$150M program with zero missed regulatory deadlines. I also speak on AI governance for boards and executive teams, most recently for ISACA Silicon Valley.",
   },
 ];
 

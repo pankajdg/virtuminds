@@ -18,7 +18,25 @@ export function WhyNow() {
           are being asked to oversee AI decisions they cannot evidence.
         </p>
         <p className="mt-8 text-xs text-navy-foreground/50">
-          Sources: UpGuard State of Shadow AI (Nov 2025); IBM Cost of a Data Breach Report 2026.
+          Sources:{" "}
+          <a
+            href="https://www.upguard.com/resources/the-state-of-shadow-ai"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-2 hover:text-gold"
+          >
+            UpGuard State of Shadow AI (Nov 2025)
+          </a>
+          ;{" "}
+          <a
+            href="https://www.ibm.com/think/insights/every-ai-agent-followed-rules-data-still-leaked"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-2 hover:text-gold"
+          >
+            IBM Cost of a Data Breach Report 2026
+          </a>
+          .
         </p>
       </div>
     </section>
