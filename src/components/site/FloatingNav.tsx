@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Phone } from "lucide-react";
 import { CALENDLY_URL, INTRODUCTORY_CONVERSATION_URL, BRAND } from "@/lib/site";
 import {
   DropdownMenu,
@@ -38,6 +38,15 @@ export function FloatingNav() {
         <Link to="/insights" className={linkClass} activeProps={{ className: "bg-secondary" }}>
           Insights
         </Link>
+        <a
+          href="tel:+12485877776"
+          className="flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+          aria-label="Call Virtuminds Advisory at (248) 587-7776"
+        >
+          <Phone className="h-4 w-4" aria-hidden="true" />
+          <span className="hidden md:inline">(248) 587-7776</span>
+          <span className="md:hidden">Call</span>
+        </a>
         <DropdownMenu>
           <DropdownMenuTrigger className="ml-1 flex items-center gap-1.5 rounded-full bg-gold px-4 py-2 text-sm font-semibold text-gold-foreground transition-opacity hover:opacity-90 focus:outline-none">
             Schedule a meeting
