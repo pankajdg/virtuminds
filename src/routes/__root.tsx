@@ -76,11 +76,12 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 const PERSON_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://virtumindsadvisory.com/#pankaj-gupta",
   name: "Pankaj Gupta",
   jobTitle: "Founder, Virtuminds Advisory",
   description:
     "AI governance advisor for boards and executives. 24+ years in enterprise technology — 11 years running enterprise platform and compliance programs at Cisco, then 7 years advising Intuit's leadership at the executive level.",
-  url: "https://www.virtumindsadvisory.com/",
+  url: "https://virtumindsadvisory.com/",
   telephone: "+1-248-587-7776",
   sameAs: ["https://www.linkedin.com/in/pankajdgup/"],
   knowsAbout: [
@@ -95,6 +96,42 @@ const PERSON_SCHEMA = {
   alumniOf: [
     { "@type": "Organization", "name": "Cisco" },
     { "@type": "Organization", "name": "Intuit" },
+  ],
+};
+
+const BUSINESS_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://virtumindsadvisory.com/#virtuminds",
+  name: "Virtuminds Advisory",
+  legalName: "Virtuminds",
+  description:
+    "AI governance advisory for boards and executive teams: AI Governance Readiness Briefings, board and executive advisory, and AI risk due diligence for mid-market companies and PE portfolio companies.",
+  url: "https://virtumindsadvisory.com/",
+  telephone: "+1-248-587-7776",
+  email: "hello@virtumindsadvisory.com",
+  founder: { "@id": "https://virtumindsadvisory.com/#pankaj-gupta" },
+  areaServed: "US",
+  knowsAbout: [
+    "AI governance",
+    "Board AI oversight",
+    "AI risk due diligence",
+    "Shadow AI",
+    "AI regulatory readiness",
+  ],
+  makesOffer: [
+    {
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: "AI Governance Readiness Briefing" },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: "Board & Executive Advisory" },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: "AI Risk Due Diligence" },
+    },
   ],
 };
 
@@ -127,6 +164,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         type: "application/ld+json",
         children: JSON.stringify(PERSON_SCHEMA),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(BUSINESS_SCHEMA),
       },
     ],
   }),

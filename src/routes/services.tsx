@@ -25,6 +25,49 @@ export const Route = createFileRoute("/services")({
       { name: "twitter:image", content: "https://virtumindsadvisory.com/og-image.png" },
     ],
     links: [{ rel: "canonical", href: "https://virtumindsadvisory.com/services" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "How is this different from a Big 4 firm or a vendor?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "The person you meet is the person who does the work. No handoff to a junior team, and no product or implementation to sell you at the end.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What do you need from us?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "About an hour of your CIO’s, CISO’s or general counsel’s time for the questionnaire and documents, plus the board or executive team for the session itself.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Is what we share confidential?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. I sign a mutual NDA before any documents are shared, and I’m happy to sign yours.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Do you implement?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "No. I advise, then hand off to your team or the vendors you choose.",
+              },
+            },
+          ],
+        }),
+      },
+    ],
   }),
 
   component: ServicesPage,
