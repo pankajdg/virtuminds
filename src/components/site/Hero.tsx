@@ -19,8 +19,8 @@ export function Hero() {
             AI strategy and governance, translated into board-ready decisions.
           </h1>
           <p className="mt-6 max-w-2xl leading-relaxed text-navy-foreground/75">
-            24+ years in enterprise technology — 11 years building and running infrastructure and
-            security programs at Cisco, then 7 years advising Intuit's leadership — including a
+            24+ years in enterprise technology — 11 years running enterprise platform and
+            compliance programs at Cisco, then 7 years advising Intuit's leadership — including a
             ~$150M regulatory program with zero missed deadlines. I help boards and executive teams
             make sound decisions on AI adoption and cyber risk, before either becomes a crisis.
           </p>
