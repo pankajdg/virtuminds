@@ -27,10 +27,7 @@ export function Testimonials() {
               className="flex flex-1 basis-80 flex-col rounded-lg bg-navy p-7 text-navy-foreground lg:p-8"
             >
               <div className="flex flex-1 flex-col justify-center">
-                <span className="font-display text-4xl leading-none text-gold" aria-hidden="true">
-                  &ldquo;
-                </span>
-                <blockquote className="mt-4 space-y-4 text-sm leading-relaxed text-navy-foreground/90 lg:text-base">
+                <blockquote className="space-y-4 text-sm leading-relaxed text-navy-foreground/90 lg:text-base">
                   {testimonial.quote.map((paragraph, index) => (
                     <p key={index}>{paragraph}</p>
                   ))}
