@@ -56,6 +56,19 @@ const BRIEFS = [
       href: "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise",
     },
   },
+  {
+    date: "September 2026",
+    title: "I used to think AI governance was IT's job",
+    paragraphs: [
+      "Then I sat in on a board meeting where the CFO asked a simple question: who owns AI risk? Legal pointed to compliance. IT pointed to security. The business unit called it innovation, not risk. Nobody claimed it.",
+      "Only 2% of boards have a formal AI governance framework in place today. Not because boards don't care — because nobody formally said \u201Cthis is mine.\u201D",
+      "AI governance isn't a technology function. It's a board function that happens to touch technology. Until a board assigns that ownership on purpose, \u201CIT's job\u201D is just the default nobody actually agreed to. Who owns AI governance in your organization — did someone actually decide that, or did it just default there?",
+    ],
+    source: {
+      text: "BoardPro AI Governance Pulse 2026 — survey of 485 directors, executives and governance professionals, mostly Australia and New Zealand",
+      href: "https://www.boardpro.com/resources/report/ai-governance-report",
+    },
+  },
 ] as const;
 
 const QUESTIONS = [

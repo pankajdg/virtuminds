@@ -10,9 +10,9 @@ const ITEMS = [
     href: "/insights#briefs",
   },
   {
-    date: "October 2026",
-    title: "Questions every director should ask about AI",
-    href: "/insights",
+    date: "September 2026",
+    title: "I used to think AI governance was IT's job",
+    href: "/insights#briefs",
   },
 ] as const;
 
