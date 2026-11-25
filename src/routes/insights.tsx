@@ -57,6 +57,8 @@ const BRIEFS = [
     },
   },
 ] as const;
+
+const QUESTIONS = [
   ["What AI is actually running in our company right now — including the tools nobody approved?", "Shadow AI means the official inventory and the real footprint are two different things. You can't govern what you can't see."],
   ["Who approved each AI use case — and who can shut it down?", "Every AI deployment needs a named owner, a validator, and a kill switch. If no one can produce that map, accountability is theoretical."],
   ["What company data can reach external AI systems, and through which paths?", "Customer PII, IP, and code are one browser extension away from an external LLM. The question isn't whether data flows — it's whether anyone has mapped it."],
