@@ -43,7 +43,7 @@ const findings: {
 
 export function BriefingDeliverable() {
   return (
-    <section className="border-y border-border bg-secondary py-16 lg:py-20">
+    <section id="exposure-map" className="scroll-mt-24 border-y border-border bg-secondary py-16 lg:py-20">
       <div className="section-shell">
         <h2 className="text-3xl font-bold sm:text-4xl">What you walk away with</h2>
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">

@@ -19,6 +19,10 @@ const services = [
       },
       { label: "Fee", text: "Starting at $3,000, fixed once scoped." },
     ],
+    related: {
+      text: "Seven questions every director should ask about AI",
+      href: "/insights",
+    },
   },
   {
     icon: Users,
@@ -38,6 +42,10 @@ const services = [
       },
       { label: "Fee", text: "Scoped after the Briefing." },
     ],
+    related: {
+      text: "The track record behind the advice",
+      href: "/#track-record",
+    },
   },
   {
     icon: Briefcase,
@@ -57,6 +65,10 @@ const services = [
       },
       { label: "Fee", text: "Fixed fee per target, scoped on a call." },
     ],
+    related: {
+      text: "See a sample AI exposure map",
+      href: "/#exposure-map",
+    },
   },
 ];
 
@@ -105,6 +117,15 @@ export function ServicesDetail() {
                   </div>
                 ))}
               </dl>
+              <p className="mt-6 text-sm">
+                <span className="font-semibold">Related reading: </span>
+                <a
+                  href={service.related.href}
+                  className="font-medium text-gold underline-offset-2 hover:underline"
+                >
+                  {service.related.text} &rarr;
+                </a>
+              </p>
             </article>
           ))}
         </div>
