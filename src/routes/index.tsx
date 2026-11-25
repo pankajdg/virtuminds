@@ -9,6 +9,7 @@ import { TrackRecord } from "@/components/site/TrackRecord";
 import { Testimonials } from "@/components/site/Testimonials";
 import { ServicesGrid } from "@/components/site/ServicesGrid";
 import { BriefingDeliverable } from "@/components/site/BriefingDeliverable";
+import { LatestBriefs } from "@/components/site/LatestBriefs";
 import { CtaBand } from "@/components/site/CtaBand";
 import { Footer } from "@/components/site/Footer";
 
@@ -52,6 +53,7 @@ function Index() {
       <TrackRecord framingLine="Results that transfer. Each engagement below built the operating discipline behind Virtuminds' AI governance work — measured in outcomes, not years." />
       <Testimonials />
       <BriefingDeliverable />
+      <LatestBriefs />
       <CtaBand />
       <Footer />
     </main>
